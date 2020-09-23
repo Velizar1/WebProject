@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Css/index.css">
+    <link rel="stylesheet" href="../Css/resize.css">
+    <script src="../Js/alert.js"></script>
 </head>
+
 <body>
 
     <header>
@@ -15,8 +18,8 @@
             </h1>
             <form action="#" method="POST">
                
-                <input type="email" value="EMAIL"> 
-                <button type="submit">
+                <input type="email" name="a" id="a" value="EMAIL" required> 
+                <button type="submit" onclick="notification(a)">
                     <span>Lorem ipsum dolor sit amet</span>
                 </button>
             </form>
@@ -46,8 +49,8 @@
                     Lorem ipsum dolor sit amet, consectetur
                 </h3>
             </div>
-            <div class="arrow" style="background-image:url(../Resources/Polygon\ 4.png);"></div>
-            <div id="rectangle3" class="firstBoxes">
+            <div class="arrow" id="second" style="background-image:url(../Resources/Polygon\ 4.png);"></div>
+            <div id="rectangle10" class="firstBoxes">
                 <div style="background-image:url(../Resources/3.png);">
                 </div>
                 <h1>

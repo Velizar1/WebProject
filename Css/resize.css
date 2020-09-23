@@ -1,0 +1,238 @@
+@media only screen and (min-device-width : 720px) and (max-device-width : 1350px) {
+   header{
+    height: 20em;    
+   }
+   #rectangle{
+       width: 40%;
+       left: 55%;
+   }
+   #rectangle h1{
+       font-size: 140%;
+   }
+   #rectangle form input{
+       height: 25%;
+   }
+   #rectangle form button{
+       height: 25%;
+   }
+   #rectangle form button span{
+        font-size: 100%;
+    }
+    .mainBox{
+        height: 60%;
+    }
+    .firstBoxes{
+        left: 10%;
+        display: block;
+        height: 22%;
+        width: 80%;
+        top:5em;
+    }
+    .firstBoxes div{
+        top:15%;
+    }
+    #rectangle3{
+        top:1em;
+    }
+    #rectangle10{
+        top:-3em;
+    }
+    .arrow{
+        position: relative;
+        left: 30%;
+        transform: rotate(90deg);
+        top:4em;
+        width: 7%;
+    }
+     #second{
+         position: relative;
+        top:45%;
+    }
+    #rectangle4 h1{
+        top:5%;
+        font-size: 190%;
+        right: 10%;
+    }
+    .secondBoxes{
+        display: block;
+        height: 25%;
+        width: 80%;
+        left: 5.5%;
+        top:10%;
+        margin-top: 2%;
+    }
+    .secondBoxes .people{
+        height: 80%;;
+        width: 11%;
+        top:10%;
+    }
+    #rectangle4 .secondBoxes h1{
+    
+        width: 75%;
+        top:25%;
+        font-size: 120%;
+    }
+    #rectangle4 .secondBoxes h3{
+        top:40%;
+        
+    }
+    #rectangle4{
+        height: 50%;
+    }
+    #orangeButton button{
+        width: 80%;
+        left: 0.6%;
+        top:25%;
+    
+    }
+    .icon{
+        width: 6.5em;;
+        left: 2%;
+    }
+
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 719px) {
+
+    header{
+        height: 15em;    
+    }
+    #rectangle{
+        position: absolute;
+        display: block;
+        width: 80%;
+        left: 10%;
+        top:560%;
+        height: 20em;
+        z-index: 1;
+        
+    }
+    #rectangle h1{
+        font-size: 140%;
+    }
+    #rectangle form input{
+        height: 25%;
+    }
+    #rectangle form button{
+        height: 25%;
+    }
+    #rectangle form button span{
+         font-size: 100%;
+     }
+     #rectangle4 h1{
+        top:10%;
+     }
+     #rectangle1 h1{
+        font-size: 150%;
+     }
+     #rectangle1 .firstBoxes h1{
+        font-size: 120%;
+     }
+    .mainBox{
+        text-align: center;
+        height: 60%;
+    }
+    .firstBoxes{
+        left: 10%;
+        display: block;
+        height: 18%;
+        width: 80%;
+        top:5em;
+    }
+    .firstBoxes div{
+        top:10%;
+    }
+    #rectangle3{
+        top:1em;
+    }
+    #rectangle10{
+        top:-3em;
+    }
+    .firstBoxes h1{
+        top:15%; 
+    }
+    h3{
+        top:20%
+    }
+    .arrow{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        transform: rotate(90deg);
+        top:4em;
+        left: -10%;
+        width: 15%;
+    }
+     #second{
+        top:0em;
+    }
+    #rectangle4 h1{
+        display: inline-block;
+        top:5%;
+        font-size: 140%;
+        
+    }
+    .secondBoxes{
+        text-align: center;
+        display: block;
+        height: 39%;
+        width: 80%;
+        left: 5%;
+        top:10%;
+        margin-top: 5%;
+    }
+    .secondBoxes .people{
+        position:absolute;
+        display: inline-block;
+        height: 40%;;
+        width: 20%;
+        top:10%;
+        left: 40%;
+    }
+    #rectangle4 .secondBoxes h1{
+    
+        width: 75%;
+        top:55%;
+        font-size: 120%;
+    }
+    #rectangle4 .secondBoxes h3{
+        left: 0%;
+        width: 100%;
+        top:58%;
+        font-size: 80%;
+    }
+  
+    #rectangle4{
+        height: 50%;
+    }
+    #orangeButton{
+        position: absolute;
+        top:22%;
+    }
+    #orangeButton button{
+        width: 90%;
+        left: 0.6%;
+        top:45%;
+    
+    }
+    #orangeButton button span{
+        font-size: 15px;;
+    }
+    #icons{
+        margin-top: 130%;
+        height: 20em;
+    }
+    .icon{
+        margin-top: 10px;
+        top:10%;
+        width: 7em;;
+        height: 40%;
+        left: 2%;
+    }
+    footer{
+        margin-top: 50%;
+    }
+    footer div a{
+        display: block;
+        margin-top: 10px;
+    }
+  }
